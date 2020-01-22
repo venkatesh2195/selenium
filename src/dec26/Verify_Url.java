@@ -1,6 +1,5 @@
 package dec26;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.remote.server.handler.GetCurrentUrl;
 public class Verify_Url {
 public static void main(String[] args) {
 		ChromeDriver driver=new ChromeDriver();

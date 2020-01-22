@@ -1,7 +1,4 @@
 package dec26;
-
-import org.apache.xpath.operations.Equals;
-
 public class String_Matches {
 public static void main(String[] args) {
 String str1="Hello";
