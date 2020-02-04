@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[no of rows are::9  columns in first row::4]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Username cannot be empty]]>
+    </line>
+    <line>
+      <![CDATA[Password cannot be empty]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[Invalid credentials]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="86884" started-at="2020-02-01T10:16:02Z" finished-at="2020-02-01T10:17:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="86884" started-at="2020-02-01T10:16:02Z" finished-at="2020-02-01T10:17:29Z">
+      <class name="jan28.DataDriven">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:jan28.DataDriven@6025e1b6]" name="setUp" is-config="true" duration-ms="5669" started-at="2020-02-01T10:16:02Z" finished-at="2020-02-01T10:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:jan28.DataDriven@6025e1b6]" name="verifyLogin" duration-ms="79087" started-at="2020-02-01T10:16:08Z" finished-at="2020-02-01T10:17:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[no of rows are::9  columns in first row::4]]>
+            </line>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Invalid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Username cannot be empty]]>
+            </line>
+            <line>
+              <![CDATA[Password cannot be empty]]>
+            </line>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+            <line>
+              <![CDATA[Invalid credentials]]>
+            </line>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:jan28.DataDriven@6025e1b6]" name="tearDown" is-config="true" duration-ms="2093" started-at="2020-02-01T10:17:27Z" finished-at="2020-02-01T10:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- jan28.DataDriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
